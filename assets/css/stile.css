@@ -1,0 +1,286 @@
+/* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../img/sfondo.png);
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 20px;
+}
+
+/* HEADER */
+header {
+    background-color: #0088aa;
+    background-image: linear-gradient(to bottom, #0088aa, #0084a5, #0080a1, #007d9c, #007998);
+    margin-bottom: 25px;
+    box-shadow: 0px 3px 4px 2px rgba(115, 115, 115, 1);
+}
+
+header img {
+    margin-top: 40px;
+    margin-left: 95px;
+}
+
+header p {
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    padding: 30px;
+}
+
+nav li {
+    text-align: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    line-height: 1.8em;
+    box-shadow: 7px, 7px;
+}
+
+nav ul li::after {
+    content: " \21D0";
+    color: #fff;
+}
+
+nav ul li::before {
+    content: "\21D2";
+    color: #fff;
+}
+
+nav ul a:link,
+a:visited {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+hr {
+    display: none;
+}
+
+/* MAIN */
+
+main {
+    border: 1px solid #fff;
+    background-color: #fff;
+    box-shadow: 2px 4px 1px #8080807c, -3px 1px #8080807c;
+    padding: 15px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin-bottom: 25px;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+article h1 {
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.mario {
+    color: #808080;
+    margin-bottom: 25px;
+
+}
+
+.p-2 {
+    padding: 3px;
+    margin-bottom: 25px;
+}
+
+p strong {
+    color: #ab67ad;
+}
+
+.p-3 {
+    padding: 3px;
+    margin-bottom: 25px;
+}
+
+article ul {
+    margin-left: 15px;
+    margin-bottom: 25px;
+}
+
+code {
+    border-radius: 6px;
+    background-color: #8080804a;
+}
+
+.p-4 {
+    margin-bottom: 25px;
+}
+
+article ol {
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+.p-5 {
+    margin-bottom: 25px;
+}
+
+
+/* TABELLE */
+
+table {
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid #3366cc;
+    margin-bottom: 25px;
+}
+
+caption {
+    font-weight: bold;
+    font-style: italic;
+}
+
+thead {
+    background-color: #3366cc;
+    color: #fff;
+}
+
+th {
+    padding: 10px;
+    border-right: 1px solid #fff;
+    vertical-align: bottom;
+}
+
+tr:nth-child(even) {
+    background-color: #ececec;
+    border-top: #b8b8b8;
+    border-bottom: #b8b8b8;
+}
+
+td {
+    padding: 10px;
+}
+
+
+.p-6 {
+    margin-bottom: 25px;
+}
+
+.p-6 a {
+    color: #6bc8e2;
+}
+
+iframe {
+    border-radius: 20px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+section {
+    border-radius: 1px;
+    background-color: #e2dfe0;
+    height: 35vh;
+    margin-bottom: 25px;
+}
+
+section h2 {
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+}
+
+section p {
+    margin-bottom: 35px;
+    padding: 10px;
+}
+
+/* FORM */
+
+form {
+    text-align: center;
+}
+
+fieldset button {
+    font-weight: bold;
+    background-color: #3366cf;
+    color: #fff;
+    padding: 5px;
+}
+
+fieldset input {
+    border-radius: 2px solid #000000;
+    padding: 5px;
+}
+
+/* ELEMENTI NELL' ASIDE */
+
+aside h2 {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.validare {
+    border-radius: 1px solid #fff;
+    background-color: #e2dfe0;
+    margin-bottom: 25px;
+    height: 20vh;
+}
+
+.validare a {
+    color: #00a3cb;
+    padding-left: 20px;
+}
+
+.p-7 {
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+.data {
+    padding-left: 50%;
+}
+
+.correggere {
+    border-radius: 1px solid #fff;
+    background-color: #e2dfe0;
+    margin-bottom: 25px;
+    height: 20vh;
+}
+
+.correggere a {
+    color: #00a3cb;
+    padding-left: 20px;
+}
+
+.meno-kd {
+    border-radius: 1px solid #fff;
+    background-color: #e2dfe0;
+    margin-bottom: 25px;
+    height: 20vh;
+}
+
+.meno-kd a {
+    color: #00a3cb;
+    padding-left: 20px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #045267;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0px 3px 4px 2px rgba(115, 115, 115, 1);
+    background-image: linear-gradient(to bottom, #045267, #243b52, #282636, #1c151b, #000000);
+}
+
+footer p {
+    margin-bottom: 25px;
+}
+
+footer a {
+    color: #fe05f5;
+
+}
